@@ -1,0 +1,110 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+  background: linear-gradient(to right, #E100FF, #7F00FF);
+}
+
+h1{
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0C1E7F, 0 0 20px #0C1E7F, 0 0 25px #0C1E7F, 0 0 30px #0C1E7F, 0 0 35px #0C1E7F;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  width: 45%;
+  height: 45vh;
+  padding: 10px;
+  margin-top: 27vh;
+  border-radius: 10px;
+  background-color: #FBF3E4;
+  box-shadow: 8px 8px 16px #4C0070,
+              -8px -8px 16px #9A0680;
+}
+
+.display #screen {
+  width: 97%;
+  height: 70px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: .5rem;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #AFB9C8;
+}
+
+input[type=text]{
+  background: -webkit-linear-gradient(#7F00FF, #E100FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button:not(#ce, #ac, #eval){
+  background: -webkit-linear-gradient(#7F00FF, #E100FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btns {
+  width: 100%;
+  margin-top: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btns .row button {
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 900;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 8px #AFB9C8;
+}
+
+.btns .row button:hover {
+  box-shadow: inset 3px 3px 5px #AFB9C8;
+}
+
+#ac {
+  background: #FF0000;
+  color: #fff;
+  box-shadow: 5px 5px 8px #99A799;
+}
+
+#ac:hover {
+  box-shadow: inset 5px 5px 8px #950101;
+}
+
+#eval {
+  background: #4E9F3D;
+  color: #fff;
+  box-shadow: 5px 5px 8px #99A799;
+}
+
+#eval:hover {
+  box-shadow: inset 5px 5px 8px #357C3C;
+}
+
+#ce {
+  background: #F39422;
+  color: #fff;
+  box-shadow: 5px 5px 8px #99A799;
+}
+
+#ce:hover {
+  box-shadow: inset 5px 5px 8px #FF4D00;
+}
